@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/jasmin-node"
   },
   "dependencies": {
     "body-parser": "~1.16.0",
@@ -15,6 +16,7 @@
     "jsonwebtoken": "^7.3.0",
     "lodash": "^4.17.4",
     "morgan": "~1.7.0",
+    "request": "^2.79.0",
     "serve-favicon": "~2.3.2"
   }
 }
