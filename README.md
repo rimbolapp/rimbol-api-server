@@ -6,8 +6,7 @@
 
 GET http://localhost:3000/users
 ### Request
-```
-```
+nothing
 
 ### Response
 ```javascript
@@ -38,24 +37,24 @@ POST http://localhost:3000/users
 ### Response
 ```javascript
 {
-  "id": 102
+  "id": 103,
+  "name": "lee"
 }
 ```
 
 
-## GET /users/:name
+## GET /users/:id
 
 
-GET http://localhost:3000/users/kun
+GET http://localhost:3000/users/101
 ### Request
-```
-```
+nothing
 
 ### Response
 ```javascript
 {
   "users": {
-    "id": 123,
+    "id": 101,
     "name": "kun"
   }
 }
